@@ -1,0 +1,56 @@
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from osis_education_group_sdk.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from osis_education_group_sdk.model.academic_type_enum import AcademicTypeEnum
+from osis_education_group_sdk.model.accepted_language_enum import AcceptedLanguageEnum
+from osis_education_group_sdk.model.active_enum import ActiveEnum
+from osis_education_group_sdk.model.activity_presence_enum import ActivityPresenceEnum
+from osis_education_group_sdk.model.array_of_program_tree_prerequisites import ArrayOfProgramTreePrerequisites
+from osis_education_group_sdk.model.array_of_versions import ArrayOfVersions
+from osis_education_group_sdk.model.campus import Campus
+from osis_education_group_sdk.model.constraint_type_enum import ConstraintTypeEnum
+from osis_education_group_sdk.model.decree_category_enum import DecreeCategoryEnum
+from osis_education_group_sdk.model.duration_unit_enum import DurationUnitEnum
+from osis_education_group_sdk.model.error import Error
+from osis_education_group_sdk.model.group_detailed import GroupDetailed
+from osis_education_group_sdk.model.group_type_enum import GroupTypeEnum
+from osis_education_group_sdk.model.hops import Hops
+from osis_education_group_sdk.model.inline_response200 import InlineResponse200
+from osis_education_group_sdk.model.inline_response2001 import InlineResponse2001
+from osis_education_group_sdk.model.internship_presence_enum import InternshipPresenceEnum
+from osis_education_group_sdk.model.learning_unit_type_enum import LearningUnitTypeEnum
+from osis_education_group_sdk.model.mini_training import MiniTraining
+from osis_education_group_sdk.model.mini_training_detailed import MiniTrainingDetailed
+from osis_education_group_sdk.model.mini_training_detailed_all_of import MiniTrainingDetailedAllOf
+from osis_education_group_sdk.model.mini_training_type_enum import MiniTrainingTypeEnum
+from osis_education_group_sdk.model.node import Node
+from osis_education_group_sdk.model.node_base import NodeBase
+from osis_education_group_sdk.model.node_link_type_enum import NodeLinkTypeEnum
+from osis_education_group_sdk.model.node_sub_type_enum import NodeSubTypeEnum
+from osis_education_group_sdk.model.node_type_enum import NodeTypeEnum
+from osis_education_group_sdk.model.paginated_mini_training import PaginatedMiniTraining
+from osis_education_group_sdk.model.paginated_mini_training_all_of import PaginatedMiniTrainingAllOf
+from osis_education_group_sdk.model.paginated_training import PaginatedTraining
+from osis_education_group_sdk.model.paginated_training_all_of import PaginatedTrainingAllOf
+from osis_education_group_sdk.model.pagination import Pagination
+from osis_education_group_sdk.model.periodicity_enum import PeriodicityEnum
+from osis_education_group_sdk.model.print_orientation_enum import PrintOrientationEnum
+from osis_education_group_sdk.model.program_tree_prerequisites import ProgramTreePrerequisites
+from osis_education_group_sdk.model.proposal_type_enum import ProposalTypeEnum
+from osis_education_group_sdk.model.quadrimester_enum import QuadrimesterEnum
+from osis_education_group_sdk.model.rate_code_enum import RateCodeEnum
+from osis_education_group_sdk.model.schedule_type_enum import ScheduleTypeEnum
+from osis_education_group_sdk.model.training import Training
+from osis_education_group_sdk.model.training_detailed import TrainingDetailed
+from osis_education_group_sdk.model.training_detailed_all_of import TrainingDetailedAllOf
+from osis_education_group_sdk.model.training_type_enum import TrainingTypeEnum
+from osis_education_group_sdk.model.tree import Tree
+from osis_education_group_sdk.model.version import Version
